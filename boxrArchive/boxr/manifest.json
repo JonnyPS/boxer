@@ -1,0 +1,28 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "Boxr",
+  "version": "1.0",
+
+  // Recommended
+  "default_locale": "en",
+  "description": "On the fly measuring box",
+  // "icons": {
+  //   "icon.png"
+  //   },
+
+  // Pick one (or none)
+  "browser_action": {
+    "default_icon": {                    // optional
+      "19": "icon.png"           // optional
+    }
+  },
+
+
+  "background": {
+    // Recommended
+    "scripts": ["jQuery.js", "myScript.js"],
+    "persistent": false
+  }
+}
+
